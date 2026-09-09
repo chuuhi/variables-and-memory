@@ -2,9 +2,9 @@ def challenge_01():
     apples = 1729
     oranges = 42
     papaya = apples
-    # 1
+    # 1 apples and papaya = same id
     apples = apples + oranges
-    # 2
+    # 2 after reassignment, apples id changes, papaya same as old id
 
 def challenge_02():
     apples = 1729
